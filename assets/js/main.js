@@ -24,22 +24,3 @@ document.addEventListener('click', (e) => {
     }
 });
 
-// ===== FADE-IN ANIMATION ON SCROLL =====
-const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -100px 0px'
-};
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('show');
-            observer.unobserve(entry.target);
-        }
-    });
-}, observerOptions);
-
-// Observe all fade-in elements
-document.querySelectorAll('.fade-in').forEach(element => {
-    observer.observe(element);
-});
