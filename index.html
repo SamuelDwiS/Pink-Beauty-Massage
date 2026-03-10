@@ -23,7 +23,7 @@
                     <a href="#home" class="navbar__link">Home</a>
                     <a href="#about" class="navbar__link">Tentang</a>
                     <a href="#services" class="navbar__link">Daftar Harga</a>
-                    <a href="#contact" class="navbar__link">Kontak</a>
+                    <!-- <a href="#contact" class="navbar__link">Kontak</a> -->
                     <a href="#testimoni" class="navbar__link">Testimoni</a>
                 </div>
 
@@ -41,8 +41,8 @@
                 <div class="hero__content">
                     <h1 class="hero__title">Pijat <br> Khusus <br> Perempuan</h1>
                     <p class="hero__subtitle">Layanan pijat untuk perempuan yang mengutamakan kenyamanan dan relaksasi.
-                    </p>
-                    <a href="#contact" class="btn btn--primary">Pesan Sekarang</a>
+                        <br>Yang berada di area Surakarta dan sekitarnya.
+                    </p> <a href="#contact" class="btn btn--primary">Pesan Sekarang</a>
                 </div>
                 <div class="hero__image">
                     <img src="assets/img/hero-massage.png" alt="Pink Beauty Massage Service">
@@ -54,17 +54,23 @@
         <section class="section about" id="about">
             <div class="container">
                 <h2 class="section__title">Tentang Pink Beauty</h2>
-                <p class="section__text">
-                    Pink Beauty adalah layanan pijat khusus perempuan yang didirikan dengan tujuan memberikan pengalaman
-                    relaksasi terbaik.
-                    Kami memahami kebutuhan unik perempuan akan kenyamanan dan ketenangan, sehingga setiap layanan kami
-                    dirancang khusus untuk memenuhi harapan tersebut.
-                </p>
-                <p class="section__text">
-                    Dengan terapis berpengalaman dan suasana yang menenangkan, kami berkomitmen untuk memberikan
-                    pelayanan pijat yang tidak hanya memberikan relaksasi fisik, tetapi juga kenyamanan.
-
-                </p>
+                <div class="about__wrapper">
+                    <div class="about__image">
+                        <img src="assets/img/therapist-profile.jpg" alt="Profil Terapis Pink Beauty">
+                    </div>
+                    <div class="about__content">
+                        <p class="section__text">
+                            Pink Beauty adalah layanan pijat khusus perempuan yang hadir untuk memberikan pengalaman
+                            relaksasi
+                            yang nyaman dan aman. Layanan ini tersedia bagi perempuan di area UNS dan wilayah Solo
+                            sekitarnya.
+                        </p>
+                        <p class="section__text">
+                            Dengan terapis berpengalaman, kami berkomitmen untuk memberikan
+                            pelayanan pijat yang tidak hanya memberikan relaksasi fisik, tetapi juga kenyamanan.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -120,43 +126,129 @@
             </div>
         </section>
 
-        <section>
+        <!-- TESTIMONIALS SECTION -->
+        <section class="section testimonials" id="testimoni">
+            <div class="container">
+                <h2 class="section__title">Testimoni Pelanggan</h2>
+                <div class="testimonials__carousel">
+                    <div class="carousel__track-container">
+                        <div class="carousel__track" id="testimoni-track">
+                            <div class="testimonial-card">
+                                <div class="testimonial-card__rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <p class="testimonial-card__text">Layanannya sangat ramah dan pijatnya bikin rileks
+                                    banget! Puas sekali dengan hasil yang didapatkan.</p>
+                                <div class="testimonial-card__author">
+                                    <h4 class="testimonial-card__name">Rina</h4>
+                                    <p class="testimonial-card__service">Pijat Seluruh Tubuh</p>
+                                </div>
+                            </div>
 
+                            <div class="testimonial-card">
+                                <div class="testimonial-card__rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <p class="testimonial-card__text">Tempatnya bersih, nyaman, dan hasil pijatnya terasa
+                                    sekali. Terapis sangat profesional dan ramah.</p>
+                                <div class="testimonial-card__author">
+                                    <h4 class="testimonial-card__name">Siti</h4>
+                                    <p class="testimonial-card__service">Pijat Punggung</p>
+                                </div>
+                            </div>
+
+                            <div class="testimonial-card">
+                                <div class="testimonial-card__rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <p class="testimonial-card__text">Pijat aromaterapi favorit saya, selalu pulang dengan
+                                    badan segar dan rileks. Sangat merekomendasikan!</p>
+                                <div class="testimonial-card__author">
+                                    <h4 class="testimonial-card__name">Dewi</h4>
+                                    <p class="testimonial-card__service">Pijat Aromaterapi</p>
+                                </div>
+                            </div>
+
+                            <div class="testimonial-card">
+                                <div class="testimonial-card__rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <p class="testimonial-card__text">Terapi titik tekan sangat membantu mengurangi pegal di
+                                    badan. Recommended untuk semua perempuan!</p>
+                                <div class="testimonial-card__author">
+                                    <h4 class="testimonial-card__name">Maya</h4>
+                                    <p class="testimonial-card__service">Terapi Titik Tekan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel__btn carousel__btn--prev" id="prev-btn" aria-label="Previous">
+                        <i class='bx bx-chevron-left'></i>
+                    </button>
+                    <button class="carousel__btn carousel__btn--next" id="next-btn" aria-label="Next">
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                </div>
+            </div>
         </section>
 
     </main>
 
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="footer__container container" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem; text-align: left;">
+        <div class="footer__container container"
+            style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem; text-align: left;">
             <div style="flex: 1 1 220px; min-width: 220px;">
                 <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1rem;">
-                    <span style="font-size: 2.5rem; color: #F44336;"><i class='bx bx-camera'></i></span>
+                    <!-- <span style="font-size: 2.5rem; color: #F44336;"><i class='bx bx-camera'></i></span> -->
                     <span style="font-size: 2rem; font-weight: 600;">Pink Beauty</span>
                 </div>
                 <div style="margin-bottom: 0.5rem; color: #fff;">pinkbeauty@email.com</div>
                 <div style="color: #fff;">0812-3456-7890</div>
             </div>
             <div style="flex: 1 1 180px; min-width: 180px;">
-                <h3 style="font-size: 1.3rem; margin-bottom: 0.7rem; color: #fff;">Our Guidelines</h3>
+                <h3 style="font-size: 1.3rem; margin-bottom: 0.7rem; color: #fff;">Pedoman Kami</h3>
                 <ul style="list-style: none; padding: 0; color: #fff;">
-                    <li><a href="#" style="color: #fff;">Terms</a></li>
+                    <li><a href="tos.html" style="color: #fff;">Terms</a></li>
                     <li><a href="#" style="color: #fff;">Privacy Policy</a></li>
                     <li><a href="#" style="color: #fff;">Cookie Policy</a></li>
                     <li><a href="#" style="color: #fff;">Discover</a></li>
                 </ul>
             </div>
             <div style="flex: 1 1 220px; min-width: 220px;">
-                <h3 style="font-size: 1.3rem; margin-bottom: 0.7rem; color: #fff;">Our Address</h3>
-                <div style="margin-bottom: 0.7rem; color: #fff;">Jl. Mawar Indah No. 88, Bandung</div>
+                <h3 style="font-size: 1.3rem; margin-bottom: 0.7rem; color: #fff;">Alamat Kami</h3>
+                <div style="margin-bottom: 0.7rem; color: #fff;">Jl. Senggol RT 03 / RW 05, Surakarta</div>
                 <div style="display: flex; gap: 0.5rem;">
-                    <a href="#" style="background: #fff; color: #C1576A; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;"><i class='bx bxl-facebook'></i></a>
-                    <a href="#" style="background: #fff; color: #C1576A; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;"><i class='bx bxl-whatsapp'></i></a>
-                    <a href="#" style="background: #fff; color: #C1576A; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"
+                        style="background: #fff; color: #C1576A; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;"><i
+                            class='bx bxl-facebook'></i></a>
+                    <a href="#"
+                        style="background: #fff; color: #C1576A; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;"><i
+                            class='bx bxl-whatsapp'></i></a>
+                    <a href="#"
+                        style="background: #fff; color: #C1576A; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;"><i
+                            class='bx bxl-instagram'></i></a>
                 </div>
             </div>
         </div>
-        <div style="text-align: center; color: #fff; margin-top: 2rem; font-size: 0.95rem;">&copy; 2026 Pink Beauty Massage. All rights reserved.</div>
+        <div style="text-align: center; color: #fff; margin-top: 2rem; font-size: 0.95rem;">&copy; 2026 Pink Beauty
+            Massage. All rights reserved.</div>
     </footer>
 
     <script src="assets/js/main.js"></script>
