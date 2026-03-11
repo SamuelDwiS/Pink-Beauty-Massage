@@ -4,7 +4,7 @@
 /* ===== VARIABLES ===== */
 :root {
     /* Colors */
-    --primary-color: #FCA4A6;
+    --primary-color: #FDB5CE;
     --primary-dark: #C1576A;
     --primary-darker: #A83E51;
     --white: #FCF8F8;
@@ -120,11 +120,11 @@ main {
 /* ===== HERO SECTION ===== */
 .hero {
     background-color: var(--primary-color);
-    min-height: auto;
+    min-height: calc(100vh - var(--header-height));
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3rem 1.5rem;
+    padding: 2rem 1.5rem;
     overflow: hidden;
 }
 
@@ -133,10 +133,10 @@ main {
     max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    gap: 4rem;
     align-items: center;
     margin: 0 auto;
-    padding: 2rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .hero__content {
@@ -144,7 +144,7 @@ main {
     flex-direction: column;
     justify-content: center;
     color: var(--white);
-    padding: 0;
+    padding: 0 2rem;
 }
 
 .hero__title {
@@ -168,7 +168,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 0 2rem;
 }
 
 .hero__image img {
@@ -562,12 +562,6 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .price-item__benefits li i {
-        width: 30px;
-        height: 30px;
-        font-size: 15px;
-    }
-
     /* Testimonials Responsive */
     .testimonial-card {
         flex: 0 0 calc(50% - 1rem);
@@ -662,18 +656,6 @@ main {
     
     .price-item {
         padding: 1.5rem;
-    }
-
-    .price-item__benefits li {
-        margin: 10px 0;
-        gap: 12px;
-    }
-
-    .price-item__benefits li i {
-        width: 32px;
-        height: 32px;
-        font-size: 16px;
-        flex-shrink: 0;
     }
 
     .about__image img {
